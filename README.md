@@ -82,7 +82,6 @@ http://192.168.100.200
 ![Pods running](parte1-prueba1.png)
 ![Pods running](parte1-prueba2.png)
 ![Pods running](parte1-prueba3.png)
-### Código agregado
 
 ## Parte 2: Backend v2.1
 **Descripción de cambios realizados:**  
@@ -110,9 +109,11 @@ Forzar el reinicio:
 kubectl rollout restart deployment api -n proyecto-integrador
 ```
 ### Screenshots
-![Docker build](screenshots/parte2-docker-build.png)
-![Rollout](screenshots/parte2-rollout.png)
-![API Info](screenshots/parte2-api-info.png)
+![Docker build](parte2-docker-build.png)
+![Docker build](parte2-docker-build2.png)
+![Rollout](parte2-rollout.png)
+![API Info](parte2-api-info.png)
+![Codigo](parte2_codigomod.png)
 
 ## Parte 3: Frontend v2.2
 Descripción de cambios:
@@ -123,9 +124,9 @@ Descripción de cambios:
 Build sin Internet: Inicialmente la VM no tenía acceso a npm → solucionado configurando NAT y proxy en VirtualBox.
 
 ### Screenshots
-![Frontend build](screenshots/parte3-frontend-build.png)
-![Frontend UI](screenshots/parte3-frontend-ui.png)
-![System info display](screenshots/parte3-system-info.png)
+![Frontend build](parte3-frontend-build.png)
+![Rollout](parte3-rollout.png)
+![System info display](parte3-system-info.png)
 
 
 ## Parte 5: Ingress + MetalLB
@@ -142,8 +143,13 @@ error upgrading connection: error dialing backend: tls: failed to verify certifi
 ```
 **Solución:** usar la IP de MetalLB para acceso externo en el navegador.
 ### Screenshots
-![Ingress config](screenshots/parte5-ingress.png)
-![Acceso externo](screenshots/parte5-external-access.png)
+![Prueba1](parte5_prueba1.png)
+![Prueba2](parte5_prueba2.png)
+![Prueba3](parte5_prueba3.png)
+![Prueba4](parte5_prueba4.png)
+![Prueba5](parte5_prueba5.png)
+![Descrip](parte5-describe.png)
+![Acceso externo](parte5_IP.png)
 
 ## Conclusiones
 - Comprender la interacción entre Docker, Kubernetes y MetalLB.
