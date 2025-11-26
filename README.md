@@ -75,10 +75,13 @@ En su lugar, acceder vía:
 http://192.168.100.200
 ```
 ### Capturas de pantalla
-![microk8s status](screenshots/parte1-microk8s-status.png)
-![Pods running](screenshots/parte1-pods-running.png)
-![Pods running](screenshots/parte1-pods-running2.png)
-![Frontend via MetalLB](screenshots/parte1-frontend-browser.png)
+![microk8s status](parte1-microk8s-status.png)
+![Pods running](parte1-pods-running.png)
+![Pods running](parte1-pods-running2.png)
+![Pods running](parte1-pods-running3.png)
+![Pods running](parte1-prueba1.png)
+![Pods running](parte1-prueba2.png)
+![Pods running](parte1-prueba3.png)
 ### Código agregado
 
 ## Parte 2: Backend v2.1
